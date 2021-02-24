@@ -5,20 +5,6 @@
 #the purchase button is then only enabled when all three option menus are filled
 #with the users room selection  
 
-#note 11/10/19: The option menus will be disabled until the previous option menu is selected
-#                The order of the selection of option menus is 
-                  #Floor Selection < Room Selection < Room Section
-                  #The purchase button should be disabled until
-                  #all three of the option menus are selected
-#completed 11/15/19
-
-
-#note 11/20/20:  When a room that has already been reserved is found
-#                 removed/pop them from the Option Menu
-#                 so that then the user can no longer select
-#                 that room
-#                 located around line 150
-
 
 
 from tkinter import *
